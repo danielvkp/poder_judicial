@@ -6,14 +6,19 @@
 
 ## Instalacion
 
+Clonar Proyecto
+```
+git clone https://github.com/danielvkp/poder_judicial.git
+```
+
 Instalar Dependencias via Composer
 ```
 $ composer install
 ```
 
-Copiar Configuarcion del Entorno al Fichero .env
+Copiar Configuarcion del Entorno .env
 ```
-$ cp .env.example .env
+$ cp .env
 ```
 
 Generar la llave de la aplicación
